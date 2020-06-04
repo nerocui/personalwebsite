@@ -20,5 +20,6 @@ steps:
     git config user.name "Nero Cui"
     npm install
     npm build
+    ls
     npm run deploy -- -r https://$(github_pat)@github.com/nerocui/zhuowencui.git
   displayName: 'npm install and build'
