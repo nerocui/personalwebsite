@@ -1,0 +1,54 @@
+.dashboard {
+    height: calc(100% - 32px - 2rem);
+    overflow: auto;
+    .container {
+        overflow-y: auto;
+        height: 100%;
+        section#repo-section {
+            display: flex;
+            justify-content: space-between;
+            height: 100%;
+            .title-container {
+                width: 50%;
+            }
+            .repo-list-container {
+                width: 50%;
+                height: 100%;
+                .repo-list-window {
+                    overflow-y: auto;
+                    padding: 1rem;
+                    margin: auto;
+                    width: 90%;
+                    height: 90%;
+                    border: 1px solid white;
+                    border-radius: .5rem;
+                    scrollbar-width: thin;
+                    scrollbar-color: blue orange;
+                }
+                div.repo-list-window::-webkit-scrollbar {
+                  width: 10px;
+                }
+                
+                /* Track */
+                div.repo-list-window::-webkit-scrollbar-track {
+                  background: #f1f1f1;
+                  border-radius: 10rem;
+                  padding-top: 1rem;
+                }
+                 
+                /* Handle */
+                div.repo-list-window::-webkit-scrollbar-thumb {
+                  background: #888;
+                  padding-top: 1rem;
+                  border-radius: 10rem;
+                }
+                
+                /* Handle on hover */
+                div.repo-list-window::-webkit-scrollbar-thumb:hover {
+                  background: #555; 
+                }
+            }
+        }
+    }
+}
+  

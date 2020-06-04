@@ -1,0 +1,19 @@
+.header-container {
+    width: 100%;
+    padding: 1rem;
+    .headers {
+        display: flex;
+        justify-content: flex-end;
+        .header-item-container {
+            margin-right: 1rem;
+            font-size: 1.5rem;
+            font-weight: 500;
+            font-family: 'Abril Fatface', cursive;
+            cursor: pointer;
+            color: rgb(255, 250, 230);
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

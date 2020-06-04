@@ -1,0 +1,63 @@
+.github-repo-card {
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: .6rem;
+    padding: 1rem;
+    width: 20rem;
+    // margin: 0 1rem 1rem 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h3 {
+        margin-bottom: .6rem;
+    }
+    a:not(.count) {
+        text-decoration: none;
+        color: rgb(101, 168, 255);
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    svg {
+        color: white;
+    }
+    p {
+        color: rgb(196, 196, 196);
+        display: inline;
+    }
+    .properties {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        .language {
+            background-color: rgb(74, 88, 90);
+            color: white;
+            padding: .1rem .8rem;
+            border-radius: .6rem;
+        }
+        .counts {
+            display: flex;
+            .count {
+                margin-right: .5rem;
+                border: 1px solid rgb(73, 73, 73);
+                padding: 0 .3rem;
+                border-radius: .3rem;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+        .property {
+            display: flex;
+            .property-item {
+                align-self: flex-end;
+                font-size: 1.1rem;
+                &:last-child {
+                    margin-left: .2rem;
+                }
+            }
+            path {
+                vertical-align: "text-bottom";
+            }
+        }
+    }
+}
