@@ -19,5 +19,6 @@ steps:
     git config user.email "nerocui@outlook.com"
     git config user.name "Nero Cui"
     npm install
+    npm build
     npm run deploy -- -r https://$(github_pat)@github.com/nerocui/zhuowencui.git
   displayName: 'npm install and build'
