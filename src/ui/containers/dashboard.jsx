@@ -22,7 +22,9 @@ const Dashboard = ({ getRepos, getEvents }) => {
                     <div className="title-container">
                         <div className="title-item">
                             <h1>I'm Active on GitHub</h1>
-                            <Lottie options={defaultOptions} height={400} width={400}/>
+                            <div className="lottie-container">
+                                <Lottie options={defaultOptions}/>
+                            </div>
                         </div>
                     </div>
                     <GitHubContainer />

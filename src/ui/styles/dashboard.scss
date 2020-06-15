@@ -3,6 +3,25 @@
     width: 1240px !important;
     margin: auto;
   }
+
+  .dashboard .lottie-container {
+    height: 25rem;
+    width: 25rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .dashboard .lottie-container {
+    height: 15rem;
+    width: 15rem;
+  }
+}
+
+@media only screen and (max-width: 768) {
+  .dashboard .lottie-container {
+    height: 25rem;
+    width: 25rem;
+  }
 }
 
 .dashboard {
@@ -20,6 +39,12 @@
                 display: flex;
                 justify-content: center;
                 .title-item {
+                  h1 {
+                    font-size: 2rem;
+                  }
+                  .lottie-container {
+                    margin: auto;
+                  }
                   align-self: center;
                   text-align: center;
                 }

@@ -17,8 +17,8 @@ class GitHubListContainer extends React.Component {
             itemsInSlide: 1,
             responsive: {
                 0: { items: 1 },
-                780: { items: 2 },
-                1240: { items: 3 },
+                767: { items: 2 },
+                1023: { items: 3 },
             },
             items: props.items,
             galleryItems: props.items.map(item => <Card onDragStart={(e) => e.preventDefault()} {...item}/>),
