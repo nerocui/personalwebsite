@@ -7,9 +7,9 @@ const CommitCommentEvent = ({repo, payload}) => {
         <div>
             <span>
                 <a href={`https://github.com/${repo.name}`}>
-                    <h2>
+                    <p>
                         Created {ref_type}
-                    </h2>
+                    </p>
                 </a>
             </span>
         </div>

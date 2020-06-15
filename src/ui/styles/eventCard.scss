@@ -1,0 +1,12 @@
+.github-event-card {
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: .6rem;
+    padding: 1rem;
+    height: 12rem;
+    min-width: 18rem;
+    max-width: 28rem;
+    // margin: 0 1rem 1rem 1rem;
+    &:not(last-child) {
+        margin-right: 1rem;
+    }
+}

@@ -1,8 +1,16 @@
-.repo-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 100%;
+.carousel-container {
     width: 100%;
-    min-height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .carousel-btn {
+        cursor: pointer;
+        width: 4rem;
+        height: 100%;
+        z-index: 10;
+    }
+    .alice-carousel-container {
+        width: calc(100% - 8rem);
+        height: 100%;
+    }
 }

@@ -6,9 +6,9 @@ const CommitCommentEvent = ({repo, payload}) => {
     return (
         <div>
             <span>
-                <h2>
+                <p>
                     Forked {forkee.full_name} from {repo.name}
-                </h2>
+                </p>
             </span>
         </div>
     );

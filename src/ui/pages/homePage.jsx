@@ -5,12 +5,18 @@ import Dashboard from '../containers/dashboard';
 const headerItems = [
     {
         title: 'Blog',
+        external: true,
+        link: 'https://nerocui.com',
     },
     {
         title: 'Projects',
+        external: false,
+        link: '/projects',
     },
     {
         title: 'About',
+        external: false,
+        link: '/about',
     }
 ];
 

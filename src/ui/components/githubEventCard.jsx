@@ -14,6 +14,8 @@ import PushEvent from './events/pushEvent';
 import ReleaseEvent from './events/releaseEvent';
 import SponsorshipEvent from './events/sponsorshipEvent';
 import WatchEvent from './events/watchEvent';
+import GenericEvent from './events/genericEvent';
+import '../styles/eventCard.scss';
 
 const EVENT_TYPE = {
     CommitCommentEvent: 'CommitCommentEvent',

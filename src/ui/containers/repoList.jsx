@@ -1,17 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { connect } from 'react-redux';
 import GitHubRepoCard from '../components/githubRepoCard';
 import '../styles/repoList.scss';
+import GitHubListContainer from './githubListContainer';
+
 
 const RepoList = ({ items }) => {
-    return (
-        <div className="repo-list">
-            {
-                items.map(item => <GitHubRepoCard {...item}/>)
-            }
-        </div>
-    );
+    return <GitHubListContainer items={items} ChildCard={GitHubRepoCard}/>
 }
+
 
 function mapStateToProps(state) {
     return {
